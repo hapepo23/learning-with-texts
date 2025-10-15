@@ -6,8 +6,8 @@ LWT is a tool for Language Learning.
 
 PLEASE READ MORE:
 
-- info.htm
-- LWT_INSTALLATION.txt
-- UNLICENSE.txt
+- [info.htm](info.htm)
+- [LWT_INSTALLATION.txt](LWT_INSTALLATION.txt)
+- [UNLICENSE.txt](UNLICENSE.txt)
 
 This is Version 2.0.3 (15-Feb-2022).
