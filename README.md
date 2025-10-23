@@ -1,3 +1,5 @@
+![LWT](img/lwt_icon_big.png)
+
 # Learning with Texts (LWT) 
 
 LWT is a tool for Language Learning, inspired by:
