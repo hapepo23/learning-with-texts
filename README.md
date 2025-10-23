@@ -1,6 +1,8 @@
 ![LWT](img/lwt_icon_big.png)
 
-# Learning with Texts (LWT) 
+# Learning with Texts (LWT)
+
+Version 2.0.3 (2022-02-15).
 
 LWT is a tool for Language Learning, inspired by:
 
@@ -22,4 +24,3 @@ PLEASE READ MORE:
 - [LWT_INSTALLATION.txt](LWT_INSTALLATION.txt)
 - [UNLICENSE.txt](UNLICENSE.txt)
 
-This is Version 2.0.3 (15-Feb-2022).
