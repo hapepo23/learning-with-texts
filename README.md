@@ -18,7 +18,7 @@ To run LWT, you'll need:
 
 ![Screenshot1](img/lwt_screenshot.png)
 
-**NEW** in 25.10.0: Now with *Translate Shell*
+**NEW** in 25.10.0: Now with *Translate Shell* (only on macOS and Linux).
 ![Screenshot2](img/lwt-with-translate-shell.png)
 
 

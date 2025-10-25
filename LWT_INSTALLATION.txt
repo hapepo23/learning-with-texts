@@ -1,33 +1,32 @@
 LWT_INSTALLATION.txt
 ====================
 
-##########
-1. Windows
-##########
+#############
+1. Windows 11
+#############
 
 Step 1a: Go to https://www.apachefriends.org/download.html 
 Step 1b: Download "XAMPP for Windows 8.x.y (64 bit)".
-Step 1c: Open your Downloads folder and run the downloaded "xampp-windows-x64-....-installer.exe". Please install the components Apache, MySQL, PHP and phpMyAdmin into the folder C:\xampp.
+Step 1c: Open your Downloads folder and run the downloaded "xampp-windows-x64-....-installer.exe". Please install the components Apache, MySQL, PHP and phpMyAdmin (Apache and PHP are already selected) into the folder C:\xampp. Start the control panel (it can be also started later via the start menu) and finish the installer. The installer can be deleted afterwards.
 
 Step 2: Go to https://github.com/hapepo23/learning-with-texts/archive/refs/heads/master.zip and download the latest zip archive "learning-with-texts-master.zip".
 
-Step 3a: Copy the zip archive "learning-with-texts-master.zip" from the Downloads folder into the directory "htdocs" below the XAMPP installation directory, i.e. "C:\xampp\htdocs".
-Step 3b: Now right-click on the zip archive and select "Extract all", and unzip everything into a new folder "C:\xampp\htdocs\learning-with-texts-master". 
-Step 3c: Rename the folder "learning-with-texts-master" to "lwt".
-Step 3d: The zip archive "learning-with-texts-master.zip" may be deleted.
+Step 3a: Copy the zip archive "learning-with-texts-master.zip" from the Downloads folder into the XAMPP installation directory "C:\xampp".
+Step 3b: Now right-click on the copied zip archive and select "Extract all", and unzip everything into the folder "C:\xampp\htdocs". 
+Step 3c: No go to "C:\xampp\htdocs" and rename the folder "learning-with-texts-master" to "lwt".
+Step 3d: The zip archives "learning-with-texts-master.zip" in "C:\xampp" and in the Downloads folders may be deleted.
 
 Step 4: Now go into "C:\xampp\htdocs\lwt". Rename the file "connect_xampp.inc.php" to "connect.inc.php". (Sometimes the "php" extension is hidden, so be careful! You can display file extensions via the Windows Explorer settings and check it.)
 
-Step 5a: Start the "XAMPP Control Panel" ("C:\xampp\xampp-control.exe") and start the two modules Apache and MySQL. Now the two module names should have a green background color. 
-Step 5b: LWT can now be started. Open a browser, and open http://localhost/lwt (please bookmark).
+Step 5a: Start the "XAMPP Control Panel" ("C:\xampp\xampp-control.exe") and start the two modules Apache and MySQL. Accept the two firewall warnings. Now the two module names should have a green background color. 
+Step 5b: Open the taskbar settings, and make the XAMPP Control Panel icon visible, so you can show or hide it, and you can see the status. 
+Step 5c: LWT can now be started. Open a browser, and open http://localhost/lwt (please bookmark).
 
 Step 6: You may now install the LWT demo database, or define the first language you want to learn. 
 
 If you start up Windows, you must repeat Step 5a+b. 
 
-If you want to start "XAMPP Control Panel" every time you start Windows and to avoid Step 5a, put a "XAMPP Control Panel" link to "C:\xampp\xampp-control.exe" into "C:\Users\(YourUID)\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup". To autostart also the Apache and MySQL modules, please open "Config" within the XAMPP Control Panel and check the two checkboxes.
-
-Hint: To fix a "XAMPP Control Panel" error "Xampp-control.ini Access is denied", please read and do the instructions in https://www.codermen.com/fix-xampp-server-error-xampp-control-ini-access-is-denied/
+If you want to start "XAMPP Control Panel" every time you start Windows and to avoid Step 5a, put a "XAMPP Control Panel" link to "C:\xampp\xampp-control.exe" into "C:\Users\(YourUID)\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup". To autostart also the Apache and MySQL modules, please open "Config" within the XAMPP Control Panel and check the two checkboxes. In order to fix a "XAMPP Control Panel" error "Xampp-control.ini Access is denied", please run the "XAMPP Control Panel" as admin. 
 
 Now you must only do step 5b to start LWT.
 
