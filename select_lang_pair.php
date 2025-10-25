@@ -85,12 +85,12 @@ function wizard_go() {
 	var context = w.document;
 	$('input[name="LgName"]',context).val(l2);	
 	$('input[name="LgDict1URI"]',context).val(
-		'*https://de.glosbe.com/' + LANGDEFS[l2][0] + '/' + 
+		'*https://glosbe.com/' + LANGDEFS[l2][0] + '/' + 
 		LANGDEFS[l1][0] + '/###'
 		);	
 	$('input[name="LgGoogleTranslateURI"]',context).val(
-		'*http://translate.google.com/?ie=UTF-8&sl=' + 
-		LANGDEFS[l2][1] + '&tl=' + LANGDEFS[l1][1] + '&text=###'
+		'*https://translate.google.com/?ie=UTF-8&sl=' + 
+		LANGDEFS[l2][1] + '&tl=' + LANGDEFS[l1][1] + '&text=###&op=translate'
 		);	
 	$('select[name="LgTextSize"]',context).val(LANGDEFS[l2][2] ? 200 : 150);	
 	$('input[name="LgRegexpSplitSentences"]',context).val(LANGDEFS[l2][4]);	

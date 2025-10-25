@@ -36,7 +36,7 @@ LWT Start Screen / Main Menu / Home
 ***************************************************************/
 
 if (! file_exists ('connect.inc.php')) {
-	echo '<div style="padding: 1em; color:red; font-size:120%; background-color:#CEECF5;"><p><b>Fatal Error:</b> Cannot find file: "connect.inc.php". Please rename the correct file "connect_[servertype].inc.php" to "connect.inc.php" ([servertype] is the name of your server: xampp, mamp, or easyphp). Please read the documentation: https://learning-with-texts.sourceforge.io</p></div></body></html>';
+	echo '<div style="padding: 1em; color:red; font-size:120%; background-color:#CEECF5;"><p><b>Fatal Error:</b> Cannot find file: "connect.inc.php". Please rename the correct file "connect_[servertype].inc.php" to "connect.inc.php" ([servertype] is the name of your server: xampp, mamp, or easyphp). Please read the documentation.</p></div></body></html>';
 	die('');
 }
 
@@ -155,11 +155,11 @@ if (isset($_COOKIE['LWT-WP-User'])) {
 
 	<br /><br /></li>
 <li><a href="info.htm">Help/Information</a></li>
-<li><a href="mobile.php">Mobile LWT (Experimental)</a></li>
+<!-- <li><a href="mobile.php">Mobile LWT (Experimental)</a></li> -->
 </ul>
 
 <p class="smallgray graydotted">&nbsp;</p>
-<table><tr><td class="width50px"><a target="_blank" href="http://unlicense.org/"><img alt="Public Domain" title="Public Domain" src="img/public_domain.png" /></a></td><td><p class="small"><a href="https://sourceforge.net/projects/learning-with-texts/" target="_blank">"Learning with Texts" (LWT)</a> is free and unencumbered software released<br />into the <a href="https://en.wikipedia.org/wiki/Public_domain_software" target="_blank">PUBLIC DOMAIN</a>. <a href="http://unlicense.org/" target="_blank">More information and detailed Unlicense ...</a><br />
+<table><tr><td class="width50px"><a target="_blank" href="http://unlicense.org/"><img alt="Public Domain" title="Public Domain" src="img/public_domain.png" /></a></td><td><p class="small"><a href="https://github.com/hapepo23/learning-with-texts" target="_blank">"Learning with Texts" (LWT)</a> is free and unencumbered software released<br />into the <a href="https://en.wikipedia.org/wiki/Public_domain_software" target="_blank">PUBLIC DOMAIN</a>. <a href="http://unlicense.org/" target="_blank">More information and detailed Unlicense ...</a><br />
 
 <?php
 
@@ -192,7 +192,7 @@ $mysql = "MySQL/" . get_first_value("SELECT VERSION() as value");
 
 ?>
 
-This is LWT Version <?php echo get_version(); ?><br /><a href="https://en.wikipedia.org/wiki/Database" target="_blank">Database</a>: <i><?php echo $dbname; ?></i> on <i><?php echo $server; ?></i> / <?php echo $span1 . $span2; ?> / Size: <?php echo $mb; ?> MB<br /><a href="https://en.wikipedia.org/wiki/Web_server" target="_blank">Web Server</a>: <i><?php echo $_SERVER['HTTP_HOST']; ?></i> / Server Software: <a href="https://en.wikipedia.org/wiki/Apache_HTTP_Server" target="_blank"><?php echo $apache; ?></a>&nbsp;&nbsp;<a href="https://en.wikipedia.org/wiki/PHP" target="_blank"><?php echo $php; ?></a>&nbsp;&nbsp;<a href="https://en.wikipedia.org/wiki/MySQL" target="_blank"><?php echo $mysql; ?></a></p></td></tr></table>
+This is LWT [Original] Version <?php echo get_version(); ?><br /><a href="https://en.wikipedia.org/wiki/Database" target="_blank">Database</a>: <i><?php echo $dbname; ?></i> on <i><?php echo $server; ?></i> / <?php echo $span1 . $span2; ?> / Size: <?php echo $mb; ?> MB<br /><a href="https://en.wikipedia.org/wiki/Web_server" target="_blank">Web Server</a>: <i><?php echo $_SERVER['HTTP_HOST']; ?></i> / Server Software: <a href="https://en.wikipedia.org/wiki/Apache_HTTP_Server" target="_blank"><?php echo $apache; ?></a>&nbsp;&nbsp;<a href="https://en.wikipedia.org/wiki/PHP" target="_blank"><?php echo $php; ?></a>&nbsp;&nbsp;<a href="https://en.wikipedia.org/wiki/MySQL" target="_blank"><?php echo $mysql; ?></a></p></td></tr></table>
 
 <?php
 

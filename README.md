@@ -2,7 +2,7 @@
 
 # Learning with Texts (LWT)
 
-Version 2.0.3 (2022-02-15).
+Version 25.10.0 (2025-10-25).
 
 LWT is a tool for Language Learning, inspired by:
 
@@ -16,7 +16,11 @@ To run LWT, you'll need:
 - a local web and database server with PHP - like XAMPP, MAMP, LAMP,
 - and the LWT application, which can be downloaded here.
 
-![Screenshot](img/lwt_screenshot.png)
+![Screenshot1](img/lwt_screenshot.png)
+
+NEW in 25.10.0: Now with *Translate Shell*
+![Screenshot2](img/lwt-with-translate-shell.png)
+
 
 PLEASE READ MORE:
 
