@@ -7,26 +7,54 @@ LWT_INSTALLATION.txt
 
 Step 1a: Go to https://www.apachefriends.org/download.html 
 Step 1b: Download "XAMPP for Windows 8.x.y (64 bit)".
-Step 1c: Open your Downloads folder and run the downloaded "xampp-windows-x64-....-installer.exe". Please install the components Apache, MySQL, PHP and phpMyAdmin (Apache and PHP are already selected) into the folder C:\xampp. Start the control panel (it can be also started later via the start menu) and finish the installer. The installer can be deleted afterwards.
+Step 1c: Open your Downloads folder and run the downloaded
+"xampp-windows-x64-....-installer.exe". Please install the 
+components Apache, MySQL, PHP and phpMyAdmin (Apache and PHP 
+are already selected) into the folder C:\xampp. Start the 
+control panel (it can be also started later via the start menu) 
+and finish the installer. 
+The installer can be deleted afterwards.
 
-Step 2: Go to https://github.com/hapepo23/learning-with-texts/archive/refs/heads/master.zip and download the latest zip archive "learning-with-texts-master.zip".
+Step 2: Go to 
+https://github.com/hapepo23/learning-with-texts/archive/refs/heads/master.zip 
+and download the latest zip archive "learning-with-texts-master.zip".
 
-Step 3a: Copy the zip archive "learning-with-texts-master.zip" from the Downloads folder into the XAMPP installation directory "C:\xampp".
-Step 3b: Now right-click on the copied zip archive and select "Extract all", and unzip everything into the folder "C:\xampp\htdocs". 
-Step 3c: No go to "C:\xampp\htdocs" and rename the folder "learning-with-texts-master" to "lwt".
-Step 3d: The zip archives "learning-with-texts-master.zip" in "C:\xampp" and in the Downloads folders may be deleted.
+Step 3a: Copy the zip archive "learning-with-texts-master.zip" from 
+the Downloads folder into the XAMPP installation directory "C:\xampp".
+Step 3b: Now right-click on the copied zip archive and select 
+"Extract all", and unzip everything into the folder "C:\xampp\htdocs". 
+Step 3c: No go to "C:\xampp\htdocs" and rename the folder 
+"learning-with-texts-master" to "lwt".
+Step 3d: The zip archives "learning-with-texts-master.zip" in 
+"C:\xampp" and in the Downloads folders may be deleted.
 
-Step 4: Now go into "C:\xampp\htdocs\lwt". Rename the file "connect_xampp.inc.php" to "connect.inc.php". (Sometimes the "php" extension is hidden, so be careful! You can display file extensions via the Windows Explorer settings and check it.)
+Step 4: Now go into "C:\xampp\htdocs\lwt". Rename the file 
+"connect_xampp.inc.php" to "connect.inc.php". (Sometimes the "php" 
+extension is hidden, so be careful! You can display file extensions 
+via the Windows Explorer settings and check it.)
 
-Step 5a: Start the "XAMPP Control Panel" ("C:\xampp\xampp-control.exe") and start the two modules Apache and MySQL. Accept the two firewall warnings. Now the two module names should have a green background color. 
-Step 5b: Open the taskbar settings, and make the XAMPP Control Panel icon visible, so you can show or hide it, and you can see the status. 
-Step 5c: LWT can now be started. Open a browser, and open http://localhost/lwt (please bookmark).
+Step 5a: Start the "XAMPP Control Panel" 
+("C:\xampp\xampp-control.exe") and start the two modules Apache and 
+MySQL. Accept the two firewall warnings. Now the two module names 
+should have a green background color. 
+Step 5b: Open the taskbar settings, and make the XAMPP Control Panel 
+icon visible, so you can show or hide it, and you can see the status. 
+Step 5c: LWT can now be started. Open a browser, and open 
+http://localhost/lwt (please bookmark).
 
-Step 6: You may now install the LWT demo database, or define the first language you want to learn. 
+Step 6: You may now install the LWT demo database, or define the first 
+language you want to learn. 
 
 If you start up Windows, you must repeat Step 5a+b. 
 
-If you want to start "XAMPP Control Panel" every time you start Windows and to avoid Step 5a, put a "XAMPP Control Panel" link to "C:\xampp\xampp-control.exe" into "C:\Users\(YourUID)\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup". To autostart also the Apache and MySQL modules, please open "Config" within the XAMPP Control Panel and check the two checkboxes. In order to fix a "XAMPP Control Panel" error "Xampp-control.ini Access is denied", please run the "XAMPP Control Panel" as admin. 
+If you want to start "XAMPP Control Panel" every time you start 
+Windows and to avoid Step 5a, put a "XAMPP Control Panel" link to 
+"C:\xampp\xampp-control.exe" into 
+"C:\Users\(YourUID)\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup". 
+To autostart also the Apache and MySQL modules, please open "Config" 
+within the XAMPP Control Panel and check the two checkboxes. In order 
+to fix a "XAMPP Control Panel" error "Xampp-control.ini Access is 
+denied", please run the "XAMPP Control Panel" as admin. 
 
 Now you must only do step 5b to start LWT.
 
@@ -35,32 +63,49 @@ Now you must only do step 5b to start LWT.
 ########
 
 I no longer use Apple hardware. 
-Therefore, I cannot test LWT itself and the following installation instructions on a Mac.
+Therefore, I cannot test LWT itself and the following installation 
+instructions on a Mac.
 Your help is very much appreciated.
 
 Step 1: Go to https://www.mamp.info/en/downloads/
 
 Step 2: Download "MAMP & MAMP PRO" (currently version 6.5).
 
-Step 3: Double-click on the downloaded installation package "MAMP_MAMP_PRO_xxx.pkg", accept the license, click on "Install for all users..." and on "Continue", on the next panel titled "Standard Install on Macintosh HD" click on "Customize", deselect "MAMP PRO", and click Install. You must enter your password. After this step MAMP is installed within a folder named "MAMP" in the Applications folder.
+Step 3: Double-click on the downloaded installation package 
+"MAMP_MAMP_PRO_xxx.pkg", accept the license, click on "Install for all 
+users..." and on "Continue", on the next panel titled "Standard 
+Install on Macintosh HD" click on "Customize", deselect "MAMP PRO", 
+and click Install. You must enter your password. After this step MAMP 
+is installed within a folder named "MAMP" in the Applications folder.
 
-Step 4: Go to https://github.com/hapepo23/learning-with-texts/archive/refs/heads/master.zip and download the latest zip archive "learning-with-texts-master.zip". 
+Step 4: Go to 
+https://github.com/hapepo23/learning-with-texts/archive/refs/heads/master.zip 
+and download the latest zip archive "learning-with-texts-master.zip". 
 
-Step 5: Copy the zip archive learning-with-texts-master.zip into the directory htdocs below the MAMP directory, i.e. /Applications/MAMP/htdocs. 
-Doubleclick on the zip archive to unzip; a new folder learning-with-texts-master will be created in htdocs.
+Step 5: Copy the zip archive learning-with-texts-master.zip into the 
+directory htdocs below the MAMP directory, i.e. 
+/Applications/MAMP/htdocs. 
+Doubleclick on the zip archive to unzip; a new folder 
+learning-with-texts-master will be created in htdocs.
 
-Step 6: Rename the new folder learning-with-texts-master to lwt. The zip archive learning-with-texts-master.zip may be deleted.
+Step 6: Rename the new folder learning-with-texts-master to lwt. The 
+zip archive learning-with-texts-master.zip may be deleted.
 
-Step 7: Go to /Applications/MAMP/htdocs/lwt. Rename the file connect_mamp.inc.php to connect.inc.php.
+Step 7: Go to /Applications/MAMP/htdocs/lwt. Rename the file 
+connect_mamp.inc.php to connect.inc.php.
 
-Step 8: Open MAMP.app in /Applications/MAMP. Accept the messages from the firewall. Apache and MySQL start automatically.
+Step 8: Open MAMP.app in /Applications/MAMP. Accept the messages from 
+the firewall. Apache and MySQL start automatically.
 
-Step 9: LWT can now be started in your web browser, go to: http://localhost:8888/lwt.
+Step 9: LWT can now be started in your web browser, go to: 
+http://localhost:8888/lwt.
 
-Step 10: You may install the LWT demo database, or define the first language you want to learn. 
+Step 10: You may install the LWT demo database, or define the first 
+language you want to learn. 
 
 If you want to use LWT again, just do step 8 and 9.
-The local webserver (MAMP) will be automatically stopped by quitting the MAMP application. 
+The local webserver (MAMP) will be automatically stopped by quitting 
+the MAMP application. 
 
 ###############################
 3. Linux (tested on Linux Mint)
@@ -72,7 +117,8 @@ Step 1a: Installation of LAMP:
 
 sudo apt-get update
 
-sudo apt-get install apache2 libapache2-mod-php php php-mbstring php-mysql mysql-server
+sudo apt-get install apache2 libapache2-mod-php php php-mbstring 
+php-mysql mysql-server
 
 Step 1b: Set MySQL root Password to "abcxyz" 
 
@@ -88,15 +134,20 @@ abcxyz
 (if you see the MySQL prompt 'mysql>', everything is OK)
 QUIT;
 
-Step 2: Go to https://github.com/hapepo23/learning-with-texts/archive/refs/heads/master.zip and download the latest zip archive "learning-with-texts-master.zip".
+Step 2: Go to 
+https://github.com/hapepo23/learning-with-texts/archive/refs/heads/master.zip 
+and download the latest zip archive "learning-with-texts-master.zip".
 
 Step 3: Now unzip the archive learning-with-texts-master.zip.
 
-Step 4: Rename the new directory learning-with-texts-master to lwt. The zip archive learning-with-texts-master.zip may be deleted.
+Step 4: Rename the new directory learning-with-texts-master to lwt. 
+The zip archive learning-with-texts-master.zip may be deleted.
 
-Step 5: Rename the file connect_xampp.inc.php in /[...Path to downloaded LWT...]/lwt to connect.inc.php.
+Step 5: Rename the file connect_xampp.inc.php in 
+/[...Path to downloaded LWT...]/lwt to connect.inc.php.
 
-Step 6: Edit this  file connect.inc.php and set the MySQL password in line 
+Step 6: Edit this  file connect.inc.php and set the MySQL password in 
+line 
 $passwd = "";
 Change it to
 $passwd = "abcxyz";
@@ -110,9 +161,11 @@ sudo chmod -R 755 /var/www/html/lwt
 sudo service apache2 restart
 sudo service mysql restart
 
-Step 7: LWT can now be started in your web browser, go to: http://localhost/lwt.
+Step 7: LWT can now be started in your web browser, go to: 
+http://localhost/lwt.
 
-Step 8: You may install the LWT demo database, or define the first language you want to learn. 
+Step 8: You may install the LWT demo database, or define the first 
+language you want to learn. 
 
 If you want to use LWT again, just do step 7. 
 
@@ -122,11 +175,16 @@ If you want to use LWT again, just do step 7.
 
 Step 1: Backup the LWT directory. Backup your database (within LWT).
 
-Step 2: Go to https://github.com/hapepo23/learning-with-texts/archive/refs/heads/master.zip and download the latest zip archive "learning-with-texts-master.zip". 
+Step 2: Go to 
+https://github.com/hapepo23/learning-with-texts/archive/refs/heads/master.zip 
+and download the latest zip archive "learning-with-texts-master.zip". 
 
-Step 3: Now unzip the archive learning-with-texts-master.zip, and copy everything - but NOT the "media" folder - into the LWT directory. 
+Step 3: Now unzip the archive learning-with-texts-master.zip, and copy 
+everything - but NOT the "media" folder - into the LWT directory. 
 
-Step 4: Copy the following (if not already at its place and OK) from your LWT backup into the LWT directory: "connect.inc.php" and the whole "media" sub-directory.
+Step 4: Copy the following (if not already at its place and OK) from 
+your LWT backup into the LWT directory: "connect.inc.php" and the 
+whole "media" sub-directory.
 
 Step 5: Clear the web browser cache and open LWT as usual. 
 
