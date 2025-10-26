@@ -192,7 +192,7 @@ $mysql = "MySQL/" . get_first_value("SELECT VERSION() as value");
 
 ?>
 
-This is LWT [Original] Version <?php echo get_version(); ?><br /><a href="https://en.wikipedia.org/wiki/Database" target="_blank">Database</a>: <i><?php echo $dbname; ?></i> on <i><?php echo $server; ?></i> / <?php echo $span1 . $span2; ?> / Size: <?php echo $mb; ?> MB<br /><a href="https://en.wikipedia.org/wiki/Web_server" target="_blank">Web Server</a>: <i><?php echo $_SERVER['HTTP_HOST']; ?></i> / Server Software: <a href="https://en.wikipedia.org/wiki/Apache_HTTP_Server" target="_blank"><?php echo $apache; ?></a>&nbsp;&nbsp;<a href="https://en.wikipedia.org/wiki/PHP" target="_blank"><?php echo $php; ?></a>&nbsp;&nbsp;<a href="https://en.wikipedia.org/wiki/MySQL" target="_blank"><?php echo $mysql; ?></a></p></td></tr></table>
+This is the <b>Official LWT Version <?php echo get_version(); ?></b><br /><a href="https://en.wikipedia.org/wiki/Database" target="_blank">Database</a>: <i><?php echo $dbname; ?></i> on <i><?php echo $server; ?></i> / <?php echo $span1 . $span2; ?> / Size: <?php echo $mb; ?> MB<br /><a href="https://en.wikipedia.org/wiki/Web_server" target="_blank">Web Server</a>: <i><?php echo $_SERVER['HTTP_HOST']; ?></i> / Server Software: <a href="https://en.wikipedia.org/wiki/Apache_HTTP_Server" target="_blank"><?php echo $apache; ?></a>&nbsp;&nbsp;<a href="https://en.wikipedia.org/wiki/PHP" target="_blank"><?php echo $php; ?></a>&nbsp;&nbsp;<a href="https://en.wikipedia.org/wiki/MySQL" target="_blank"><?php echo $mysql; ?></a></p></td></tr></table>
 
 <?php
 

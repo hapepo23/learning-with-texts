@@ -2,7 +2,7 @@
 
 # Learning with Texts (LWT)
 
-## Current Version: 25.10.0 (2025-10-25)
+## This is the Official LWT Version 25.10.0 (October 25 2025)
 
 **LWT** is a tool for Language Learning, inspired by:
 

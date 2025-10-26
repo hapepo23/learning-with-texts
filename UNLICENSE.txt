@@ -1,3 +1,5 @@
+Official LWT Version 25.10.0 (October 25 2025).
+
 "Learning with Texts" (LWT) is free and unencumbered software 
 released into the PUBLIC DOMAIN.
 
