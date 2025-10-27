@@ -30,7 +30,7 @@ To run LWT, you'll need:
 
 ## PLEASE READ MORE:
 
-- info.htm (after downloading and extracting the ZIP file)
-- [LWT_INSTALLATION.txt](LWT_INSTALLATION.txt)
+- [LWT Documentation](https://hapepo23.github.io/lwt/info.htm)
+- [LWT Installation](https://hapepo23.github.io/lwt/LWT_INSTALLATION.txt)
 - [UNLICENSE.txt](UNLICENSE.txt)
 
