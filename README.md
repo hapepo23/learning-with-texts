@@ -4,6 +4,12 @@
 
 ## This is the Official LWT Version 25.10.0 (October 25 2025)
 
+**Please note:** All LWT forks on the web that I've found and tested are either outdated or buggy, even though they contain some new features or cleaner source code. 
+
+This **official version** is from the original author, and it is **stable and bug-free**.
+
+## Abstract
+
 **LWT** is a tool for Language Learning, inspired by:
 
 - [Stephen Krashen](https://en.wikipedia.org/wiki/Stephen_Krashen)'s [principles in Second Language Acquisition](https://www.sdkrashen.com/content/books/principles_and_practice.pdf),
