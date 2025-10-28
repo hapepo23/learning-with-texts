@@ -34,3 +34,8 @@ To run LWT, you'll need:
 - [LWT Installation](https://hapepo23.github.io/lwt/LWT_INSTALLATION.txt)
 - [UNLICENSE.txt](UNLICENSE.txt)
 
+## DOWNLOAD:
+
+- [Latest releases](https://github.com/hapepo23/learning-with-texts/releases)
+
+

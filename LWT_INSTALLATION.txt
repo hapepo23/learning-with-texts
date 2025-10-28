@@ -18,16 +18,16 @@ and finish the installer.
 The installer can be deleted afterwards.
 
 Step 2: Go to 
-https://github.com/hapepo23/learning-with-texts/archive/refs/heads/master.zip 
-and download the latest zip archive "learning-with-texts-master.zip".
+https://github.com/hapepo23/learning-with-texts/releases
+and download the latest zip archive "learning-with-texts-x.y.z.zip".
 
-Step 3a: Copy the zip archive "learning-with-texts-master.zip" from 
+Step 3a: Copy the zip archive "learning-with-texts-x.y.z.zip" from 
 the Downloads folder into the XAMPP installation directory "C:\xampp".
 Step 3b: Now right-click on the copied zip archive and select 
 "Extract all", and unzip everything into the folder "C:\xampp\htdocs". 
 Step 3c: No go to "C:\xampp\htdocs" and rename the folder 
 "learning-with-texts-master" to "lwt".
-Step 3d: The zip archives "learning-with-texts-master.zip" in 
+Step 3d: The zip archives "learning-with-texts-x.y.z.zip" in 
 "C:\xampp" and in the Downloads folders may be deleted.
 
 Step 4: Now go into "C:\xampp\htdocs\lwt". Rename the file 
@@ -81,17 +81,17 @@ and click Install. You must enter your password. After this step MAMP
 is installed within a folder named "MAMP" in the Applications folder.
 
 Step 4: Go to 
-https://github.com/hapepo23/learning-with-texts/archive/refs/heads/master.zip 
-and download the latest zip archive "learning-with-texts-master.zip". 
+https://github.com/hapepo23/learning-with-texts/releases
+and download the latest zip archive "learning-with-texts-x.y.z.zip". 
 
-Step 5: Copy the zip archive learning-with-texts-master.zip into the 
+Step 5: Copy the zip archive learning-with-texts-x.y.z.zip into the 
 directory htdocs below the MAMP directory, i.e. 
 /Applications/MAMP/htdocs. 
 Doubleclick on the zip archive to unzip; a new folder 
 learning-with-texts-master will be created in htdocs.
 
 Step 6: Rename the new folder learning-with-texts-master to lwt. The 
-zip archive learning-with-texts-master.zip may be deleted.
+zip archive learning-with-texts-x.y.z.zip may be deleted.
 
 Step 7: Go to /Applications/MAMP/htdocs/lwt. Rename the file 
 connect_mamp.inc.php to connect.inc.php.
@@ -137,13 +137,13 @@ abcxyz
 QUIT;
 
 Step 2: Go to 
-https://github.com/hapepo23/learning-with-texts/archive/refs/heads/master.zip 
-and download the latest zip archive "learning-with-texts-master.zip".
+https://github.com/hapepo23/learning-with-texts/releases
+and download the latest zip archive "learning-with-texts-x.y.z.zip".
 
-Step 3: Now unzip the archive learning-with-texts-master.zip.
+Step 3: Now unzip the archive learning-with-texts-x.y.z.zip.
 
 Step 4: Rename the new directory learning-with-texts-master to lwt. 
-The zip archive learning-with-texts-master.zip may be deleted.
+The zip archive learning-with-texts-x.y.z.zip may be deleted.
 
 Step 5: Rename the file connect_xampp.inc.php in 
 /[...Path to downloaded LWT...]/lwt to connect.inc.php.
@@ -178,10 +178,10 @@ If you want to use LWT again, just do step 7.
 Step 1: Backup the LWT directory. Backup your database (within LWT).
 
 Step 2: Go to 
-https://github.com/hapepo23/learning-with-texts/archive/refs/heads/master.zip 
-and download the latest zip archive "learning-with-texts-master.zip". 
+https://github.com/hapepo23/learning-with-texts/releases 
+and download the latest zip archive "learning-with-texts-x.y.z.zip". 
 
-Step 3: Now unzip the archive learning-with-texts-master.zip, and copy 
+Step 3: Now unzip the archive learning-with-texts-x.y.z.zip, and copy 
 everything - but NOT the "media" folder - into the LWT directory. 
 
 Step 4: Copy the following (if not already at its place and OK) from 
